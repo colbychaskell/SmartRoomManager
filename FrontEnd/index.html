@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Security Hub</title>
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+        <!--JQuery/JavaScript-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/index.js"></script>
+        <!--CSS-->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="top center row text">
+            <h1>Security Hub</h1>
+        </section>
+        <section class="col">
+            <div class="row left">
+                <h3>Current Status:</h3>
+                <p id="occupied-status">Occupied</p>
+            </div>
+            <div class="row">
+                <h3>LED Status:</h3>
+                <p id="led-status">Blue</p>
+            </div>
+            <div id="buttons col">
+                <!--R,G,B, Security Mode On/Off, System Off/On-->
+                <button>
+                    <h4>LED ON</h4>
+                </button>
+                <button>
+                    <h4>LED OFF</h4>
+                </button>
+                <button>
+                    <h4>LED RED</h4>
+                </button>
+                <button>
+                    <h4>LED BLUE</h4>
+                </button>
+            </div>
+        </section>
+    </body>
+
+</html>
